@@ -3,4 +3,14 @@ find this fucking google drive
 try to create your own script that is call from .html
 HW ?
 go over BMI again , it actually goes to external PHP script behind scenes , that is very cool
-js will stop on a problematic line and simply ignore everything
+js will stop on a problematic line and simply ignore everything look at OOPDemo line 19
+
+
+go over homework , playlists from youtube - TODO all JS and all CSS
+TODO - link from "Introduction to OOP Objects"
+CSS - be prepared
+
+just look at the notes of lecture 2 in the group , forum , whatever
+
+
+
