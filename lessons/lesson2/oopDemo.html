@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OOP JS</title>
+</head>
+<body>
+<script>
+    var rec = {};
+    rec.width = 4;
+    rec.height = 3;
+    var temp = rec; // same reference ?
+    temp.width = 8;
+    temp.height = 2;
+
+    var result = rec.width * rec.height;
+
+    document.write("result=" + result);
+
+    var func = function (a, b) {
+        return a + b;
+    };
+    rec.customFunction = function (a, b, c) {
+        return a + b + c + a + b + c + c + c + c + b + a;
+    };
+    rec.area = function () {
+        return this.width * this.height;
+
+    };
+
+    document.write("<br/>newTemp function" + func(2, 12));
+    document.write("<br/>customFunction  : " + rec.customFunction(1, 1, 1));
+    document.write("<br/>area =   : " + rec.area());
+
+    function Rectangle(w, h) {
+        this.width = w;
+        this.height = h;
+        this.area = function () {
+            return this.width * this.height;
+        };
+    }
+
+    var rectangles = [new Rectangle(3, 4), new Rectangle(5, 6), new Rectangle(3, 1)]; //array
+    var i = 0;
+    var total = 0; // uninitialized total fucks everything up
+
+    while (i < rectangles.length) {
+        total = total + rectangles[i].area();
+        i = i + 1;
+
+
+    }
+    document.write("<br/>Total is :" + total);
+
+
+</script>
+</body>
+</html>
