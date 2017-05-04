@@ -1,0 +1,6 @@
+come ready to the next lesson [go over class examples  ]
+find this fucking google drive
+try to create your own script that is call from .html
+HW ?
+go over BMI again , it actually goes to external PHP script behind scenes , that is very cool
+js will stop on a problematic line and simply ignore everything
